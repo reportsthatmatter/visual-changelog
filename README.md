@@ -1,15 +1,12 @@
-# Visual changelog — screenshot assets
+# Visual changelog
 
-Image storage for the [visual changelog issue](https://github.com/reportsthatmatter/reportsthatmatter/issues/83)
-on `reportsthatmatter/reportsthatmatter` — before/after screenshots of
-UI changes, posted there as the work happens, kept here instead of in the
-main repo's history so they don't bloat every future clone.
+Before/after screenshots of visible changes to
+[reportsthatmatter.org](https://reportsthatmatter.org), kept in this
+separate repo so images don't bloat the main
+[`reportsthatmatter/reportsthatmatter`](https://github.com/reportsthatmatter/reportsthatmatter)
+repo's history.
 
-Each batch of work gets its own dated folder (`YYYY-MM-DD-short-name/`).
-Images are referenced from issue comments via this repo's raw URLs:
-
-```
-https://raw.githubusercontent.com/reportsthatmatter/visual-changelog/main/<folder>/<file>.png
-```
-
-Nothing in this repo is meant to be read on its own — start at the issue.
+**Start at [`CHANGELOG.md`](CHANGELOG.md)** — that's the log itself, with
+the convention for adding to it. Each batch of work gets its own dated image
+folder (`YYYY-MM-DD-short-name/`), referenced from the changelog with
+relative paths.
