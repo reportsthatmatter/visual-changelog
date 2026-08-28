@@ -98,3 +98,53 @@ cluster together, holds up:
 post-deploy:
 
 ![live](2026-08-09-toc-and-sidenotes/10-sidenote-clamp-live-production.png)
+
+---
+
+## 2026-08-28 — Highlights, social proof, and search (retroactive)
+
+Backfilling: these three features shipped between 2026-08-20 and 2026-08-22
+with no screenshots logged here at the time. Captured against a local build
+afterward, not at ship time — the underlying feature and output are exactly
+what's live in production, only the capture is after the fact.
+
+### Highlight-to-share and quote anchors ([reportsthatmatter#94](https://github.com/reportsthatmatter/reportsthatmatter/issues/94), [reportsthatmatter#95](https://github.com/reportsthatmatter/reportsthatmatter/issues/95))
+
+Selecting part of a paragraph opens a popover to copy a link, copy the quote,
+or save the highlight. The link names the words themselves, not just the
+paragraph:
+
+![selecting a phrase opens the share popover](2026-08-28-highlights-social-proof-search/1-highlight-select-share-popover.png)
+
+Following that link marks exactly the quoted words, nothing more:
+
+![following the link marks exactly those words](2026-08-28-highlights-social-proof-search/2-quote-link-marks-exact-words.png)
+
+Saved highlights are kept in the browser (never sent anywhere) and listed at
+`/highlights`, with the quote, source, and an export:
+
+![the /highlights page](2026-08-28-highlights-social-proof-search/3-highlights-page.png)
+
+### Social proof ([reportsthatmatter#96](https://github.com/reportsthatmatter/reportsthatmatter/issues/96))
+
+What other readers marked, shown the same way any highlight is shown — a
+wash, not an underline or a printed count — with intensity scaled by how
+many readers marked it. Six readers:
+
+![strong wash, 6 readers](2026-08-28-highlights-social-proof-search/4-social-proof-strong-wash-6-readers.png)
+
+One reader, faint by comparison:
+
+![faint wash, 1 reader](2026-08-28-highlights-social-proof-search/5-social-proof-faint-wash-1-reader.png)
+
+The same data surfaces on the report's contents page, ranked:
+
+![Most marked passages on the contents page](2026-08-28-highlights-social-proof-search/6-most-marked-passages.png)
+
+### Full-text search ([reportsthatmatter#100](https://github.com/reportsthatmatter/reportsthatmatter/issues/100))
+
+Search spans every report, not just the one you're reading. A result is the
+matched passage itself, with the term highlighted and the report, section,
+and printed page it's on:
+
+![search results, term highlighted, across reports](2026-08-28-highlights-social-proof-search/7-search-results.png)
