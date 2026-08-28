@@ -148,3 +148,22 @@ matched passage itself, with the term highlighted and the report, section,
 and printed page it's on:
 
 ![search results, term highlighted, across reports](2026-08-28-highlights-social-proof-search/7-search-results.png)
+
+---
+
+## 2026-08-28 — Leveson page-flow repair ([reportsthatmatter@f07a860](https://github.com/reportsthatmatter/reportsthatmatter/commit/f07a860))
+
+On the *Operation Glade* page, a running header was rendered as prose and
+ordinary continuation lines were mistaken for an indented quotation. The
+ingest now respects the original volume boundaries, removes repeated page
+furniture, and retains only genuine quotations.
+
+**Before** — the header interrupts paragraph 2.1, while the continuation is
+set as a quotation:
+
+![before](2026-08-28-leveson-ingest-layout/before-operation-glade.png)
+
+**After** — the paragraph reads continuously; page 254 remains a marker and
+the following numbered paragraph also flows correctly:
+
+![after](2026-08-28-leveson-ingest-layout/after-operation-glade.png)
