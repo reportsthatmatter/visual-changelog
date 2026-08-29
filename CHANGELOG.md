@@ -167,3 +167,53 @@ set as a quotation:
 the following numbered paragraph also flows correctly:
 
 ![after](2026-08-28-leveson-ingest-layout/after-operation-glade.png)
+
+---
+
+## 2026-08-29 — The Columbia report, and a two-column layout read three ways wrong
+
+### Columbia Accident Investigation Board report ([reportsthatmatter#37](https://github.com/reportsthatmatter/reportsthatmatter/issues/37), [#101](https://github.com/reportsthatmatter/reportsthatmatter/issues/101))
+
+The sixth report, and the first set in two columns. It had been ruled out a
+year earlier for exactly that reason: `pdftotext -layout` puts both columns on
+the same physical line, so reading line by line welds an unrelated sentence
+into the middle of every paragraph. The fidelity checks never saw it — they
+count words rather than order them.
+
+Getting it right took four passes, and the first three shipped. Worth
+recording, because each failure looked like success:
+
+1. **Detection thresholds too strict.** A minimum gutter width of four
+   characters and a blankness threshold near 1.0 missed 86 of 248 pages,
+   including the executive summary. Columbia went live reading *"the February
+   1, 2003, loss of the Space management across program elements"*.
+2. **The column boundary was not a hard break.** Once split, the foot of the
+   left column and the head of the right sat adjacent in the block stream, and
+   the paragraph-continuation rule joined them back together.
+3. **Justified text spills into the gutter.** A long word at the end of the
+   left column reaches a character or two into the band, so those lines counted
+   as full-width and were never split — welding the columns back on exactly
+   the lines where the left column runs longest. The published summary read
+   *"In the process, Columbiaʼs control over specifications and requirements,
+   and waivers tragedy was compounded"*: three clauses from two columns in one
+   sentence.
+
+Each line is now split at its own run of whitespace nearest the gutter, and
+the boundary between columns stops anything being joined across it.
+
+**After** — the executive summary, reading in column order:
+
+![Columbia executive summary reading correctly](2026-08-29-columbia-two-column/reading-view.png)
+
+**The contents page**, 106 sections deep:
+
+![Columbia contents page](2026-08-29-columbia-two-column/contents.png)
+
+**The archive**, now six reports:
+
+![Archive page with six reports](2026-08-29-columbia-two-column/archive.png)
+
+The lesson is the one already in `AGENTS.md` and worth restating: every
+fidelity gate passed on all three broken versions. Only opening the published
+page caught them.
+
