@@ -217,3 +217,37 @@ The lesson is the one already in `AGENTS.md` and worth restating: every
 fidelity gate passed on all three broken versions. Only opening the published
 page caught them.
 
+---
+
+## 2026-09-01 — Half of Litvinenko's paragraphs were not quotations
+
+### Hanging-indent paragraphs read as block quotes ([uk-litvinenko-inquiry#1](https://github.com/reportsthatmatter/uk-litvinenko-inquiry/issues/1))
+
+Reported as one paragraph — 3.76 shown as a quotation when it is ordinary
+prose. It was **865 of the report's 1,089 numbered paragraphs**, each cut in
+half: the first line kept as prose, the remainder turned into a block quote.
+Half of every blockquote in the document was an artefact.
+
+The report sets a numbered paragraph with a hanging indent — the number at the
+left edge, the text inset by six — and the pipeline measured the document
+margin from *raw* page lines, where footnote blocks also sit at the edge. The
+margin came out at 0 instead of 6, and anything indented five past the margin
+reads as a quotation. The multi-volume path already measured the cleaned page
+body; only the single-volume path did not, which is why Leveson never showed
+it.
+
+Fixing that then took the report's **real** quotations away: it sets body text
+at 7 and quotations at 10, and the rule demanded five, so the page went from
+half its paragraphs wrongly quoted to no quotations at all. Lowering the
+threshold globally was worse again — at three, Challenger turned 442
+paragraphs into quotations and Columbia 203 — so the inset is now a property
+each report declares, like its geometry.
+
+**After** — 3.76 reads as prose, and the one genuine quotation on the page is
+still a quotation:
+
+![Chapter 2 with paragraphs whole and one real quotation](2026-09-01-litvinenko-blockquotes/after.png)
+
+Litvinenko: 1,735 → 559 blockquotes, retention 99.2% → 99.3%, words not found
+in the source 22 → 0. Every other report byte-identical.
+
