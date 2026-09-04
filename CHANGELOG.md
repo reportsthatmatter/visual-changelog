@@ -251,3 +251,68 @@ still a quotation:
 Litvinenko: 1,735 → 559 blockquotes, retention 99.2% → 99.3%, words not found
 in the source 22 → 0. Every other report byte-identical.
 
+
+---
+
+## 2026-09-03 — Four more reports: 9/11 Commission, Deepwater Horizon, Philip Morris, Hillsborough
+
+The archive went from six reports to ten
+([reportsthatmatter#124](https://github.com/reportsthatmatter/reportsthatmatter/pull/124)).
+All four are born-digital PDFs with a clean text layer, picked off the report
+backlog and each given its own repo under the org. Retention 96.6–99.7%.
+Screenshots here are the shipped state on reportsthatmatter.org, not a
+before/after — there was nothing before.
+
+### The 9/11 Commission Report ([reportsthatmatter#85](https://github.com/reportsthatmatter/reportsthatmatter/issues/85))
+
+585 pages. Every page of the PDF opened with an Adobe InDesign output slug —
+`Final1-4.4pp 7/17/04 9:12 AM Page 13` — that running-furniture detection
+can't catch (the date, time and page token change every page) and that is the
+*only* place the printed page number appears. An inline `productionSlug` pass
+in the report's own `ingest.ts` reads the number off it and drops the line.
+
+![9/11 Commission — contents page](2026-09-03-four-more-reports/us-911-commission-contents.png)
+
+![9/11 Commission — inside chapter 1, with a printed-page marker](2026-09-03-four-more-reports/us-911-commission-reading.png)
+
+### Deep Water — the BP Deepwater Horizon commission ([reportsthatmatter#87](https://github.com/reportsthatmatter/reportsthatmatter/issues/87))
+
+386 pages, 775 footnotes lifted into the margin as sidenotes, with the
+over-long ones clamped and a "show full note" toggle.
+
+![Deep Water — contents page](2026-09-03-four-more-reports/us-deepwater-horizon-contents.png)
+
+![Deep Water — a sidenote in the margin](2026-09-03-four-more-reports/us-deepwater-horizon-reading.png)
+
+### United States v. Philip Morris ([reportsthatmatter#33](https://github.com/reportsthatmatter/reportsthatmatter/issues/33))
+
+Judge Kessler's 1,682-page RICO opinion — the largest single document in the
+archive. The ECF header stamp (`Case 1:99-cv-02496-GK  Document 5750  Filed
+09/08/2006  Page 100 of 1682`) strips as running furniture once its digits are
+blanked. The numbered findings of fact each get a stable, text-derived
+permalink.
+
+![US v. Philip Morris — contents page, 129 sections](2026-09-03-four-more-reports/us-v-philip-morris-contents.png)
+
+![US v. Philip Morris — a finding of fact with its citation sidenote](2026-09-03-four-more-reports/us-v-philip-morris-reading.png)
+
+### The Report of the Hillsborough Independent Panel ([reportsthatmatter#90](https://github.com/reportsthatmatter/reportsthatmatter/issues/90))
+
+389 pages, 99.7% retention — the cleanest ingest in the archive by the word
+count, and the main body (all 12 chapters, decimal-numbered paragraphs) reads
+well. `quoteInset(10)` was needed to stop the front-matter summary's
+hanging-indent numbered list being severed into blockquotes — the same failure
+family as the Litvinenko defect above, 65 paragraphs affected.
+
+**The miss:** this report sets its section headings as colour and weight with
+no textual marker, so `pdftotext` flattens them into ordinary lines. The
+structure pass finds almost nothing real — 9 "sections", most of them spurious
+ALL-CAPS quoted document titles ("OF ACTION: CHECK TRANSCRIPTS…", "18. 'TO HER
+MAJESTY'S ATTORNEY GENERAL…"). The contents page below is the result. `/full`
+is completely fine; section navigation is not. Tracked as
+[reportsthatmatter#125](https://github.com/reportsthatmatter/reportsthatmatter/issues/125);
+shipped on the strength of `/full`.
+
+![Hillsborough — contents page, sectioned badly by undetectable headings](2026-09-03-four-more-reports/uk-hillsborough-panel-contents.png)
+
+![Hillsborough — the whole-report view, which reads correctly](2026-09-03-four-more-reports/uk-hillsborough-panel-reading.png)
