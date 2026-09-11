@@ -316,3 +316,19 @@ shipped on the strength of `/full`.
 ![Hillsborough — contents page, sectioned badly by undetectable headings](2026-09-03-four-more-reports/uk-hillsborough-panel-contents.png)
 
 ![Hillsborough — the whole-report view, which reads correctly](2026-09-03-four-more-reports/uk-hillsborough-panel-reading.png)
+
+---
+
+## 2026-09-11 — Every page gets a real share-card image
+
+Almost the whole site had no og:image — a link shared to Slack, iMessage, or X previewed as bare text everywhere except five curated quotes in one report (jack-smith-vol1). Added a second card layout — a title and subtitle, no quote — and generated one for the site itself and one per report, so a shared link always has something to show: a curated quote where one exists, that report's own card otherwise, the site's card for anything with no report at all (the homepage, `/about`, `/search`, a report's own contents page). Beads: `reportsthatmatter-obw`; commit `aa08be1`.
+
+**The site's own card** — the homepage's headline and standfirst, reused verbatim so the card and the page it fronts can't say different things:
+
+![Reports that Matter — the site's default share card](2026-09-11-social-preview-cards/1-site-card.png)
+
+**A report's default card** — what a report's contents page, its `/full` page, and any paragraph link that isn't one of the curated quotes now show instead of nothing:
+
+![Investigation of the Challenger Accident — its default share card](2026-09-11-social-preview-cards/2-report-card-challenger.png)
+
+![Wall Street and the Financial Crisis: Anatomy of a Financial Collapse — its default share card](2026-09-11-social-preview-cards/3-report-card-financial-crisis.png)
