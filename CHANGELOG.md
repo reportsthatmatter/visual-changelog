@@ -332,3 +332,38 @@ Almost the whole site had no og:image — a link shared to Slack, iMessage, or X
 ![Investigation of the Challenger Accident — its default share card](2026-09-11-social-preview-cards/2-report-card-challenger.png)
 
 ![Wall Street and the Financial Crisis: Anatomy of a Financial Collapse — its default share card](2026-09-11-social-preview-cards/3-report-card-financial-crisis.png)
+
+---
+
+## 2026-09-13 — Report plates and the pilcrow favicon
+
+Issue [reportsthatmatter#99](https://github.com/reportsthatmatter/reportsthatmatter/issues/99). Every report now has a plate: one treated image drawn from the report's own evidence (the exhibit, not the event), in its archive row, above its title, and on its share cards. The navbar drops the seal, whose lettering was 3.6px a character at 30px, for the bare wordmark; the favicon becomes a pilcrow in the seal. Study, sourcing, and the three places the live version departs from the mockups: `docs/design/2026-09-12-imagery/README.md` in the main repo.
+
+**Before** — the archive, text only, with the seal beside the wordmark:
+
+![before](2026-09-13-report-plates/1-archive-before.png)
+
+**After** — each report with its plate in a fixed 92px slot; the header is the wordmark alone:
+
+![after](2026-09-13-report-plates/2-archive-after.png)
+
+**Phone** — the plate shrinks to a 64px slot beside the title; with the seal gone the full wordmark shows, and the nav wraps under it. Before and after:
+
+![before](2026-09-13-report-plates/3-archive-phone-before.png)
+![after](2026-09-13-report-plates/4-archive-phone-after.png)
+
+**Report page** — Columbia's contents page, before and after: the impact hole in RCC Panel 8 from the final foam test, set above the title as a frontispiece:
+
+![before](2026-09-13-report-plates/5-contents-before.png)
+![after](2026-09-13-report-plates/6-contents-after.png)
+
+**Share card** — Columbia's default card, before and after:
+
+![before](2026-09-13-report-plates/7-card-before.png)
+![after](2026-09-13-report-plates/8-card-after.png)
+
+**A miss along the way** — the site's own card briefly carried the pilcrow-in-seal in the plate's slot, and its standfirst ran 41px off the bottom edge, clipping the footer. Shipped without it, and `scripts/cards.mjs` now fails any card that overflows.
+
+**Favicon** — the pilcrow as first drawn sat 9.6 units below centre; measured and re-set so its ink box centres in the seal:
+
+![favicon](2026-09-13-report-plates/9-pilcrow-512.png)
