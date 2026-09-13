@@ -367,3 +367,32 @@ Issue [reportsthatmatter#99](https://github.com/reportsthatmatter/reportsthatmat
 **Favicon** — the pilcrow as first drawn sat 9.6 units below centre; measured and re-set so its ink box centres in the seal:
 
 ![favicon](2026-09-13-report-plates/9-pilcrow-512.png)
+
+---
+
+## 2026-09-14 — Navbar icon, a press page, and two weak plates replaced
+
+Follow-up to [reportsthatmatter#99](https://github.com/reportsthatmatter/reportsthatmatter/issues/99). The pilcrow-in-seal mark returns to the navbar beside the wordmark — a different, simpler asset than the lettered ring-seal dropped from there on 2026-09-13, and already proven legible to 16px as the favicon. New `/press` page with the logo, the logotype, and the two together, at the sizes the site actually ships. And two plates replaced: Columbia's read as an unidentifiable dark blob (flagged directly — "looks like it should be Hillsborough"), and Challenger's report has no embedded photographs anywhere in its own PDF, so its plate and "cut" alternate were both the same hand-drawn diagram.
+
+**Navbar** — wordmark alone, then with the mark beside it:
+
+![before](2026-09-14-navbar-press-plates/1-nav-before.png)
+![after](2026-09-14-navbar-press-plates/2-nav-after.png)
+
+**Press page** — new, `/press`:
+
+![press page](2026-09-14-navbar-press-plates/3-press-page.png)
+
+**Columbia** — the previous plate (p.82, the RCC Panel 8 impact hole) at archive-row size, next to the report page header, before and after switching to p.98 (the shuttle in the Vehicle Assembly Building door, the same subject the previous entry's cut candidate used, rendered as a plate to stay consistent with the other nine):
+
+![before](2026-09-14-navbar-press-plates/4-columbia-row-before.png)
+![after](2026-09-14-navbar-press-plates/5-columbia-row-after.png)
+![before](2026-09-14-navbar-press-plates/6-columbia-header-before.png)
+![after](2026-09-14-navbar-press-plates/7-columbia-header-after.png)
+
+**Challenger** — the O-ring joint diagram, archive row and header, replaced with NASA's own photograph of the smoke plume at the right booster's aft field joint at liftoff (hosted on nasa.gov, public domain) — the photographic evidence the Rogers Commission used to locate the failure, sourced externally the same way Leveson and Philip Morris were:
+
+![before](2026-09-14-navbar-press-plates/8-challenger-row-before.png)
+![after](2026-09-14-navbar-press-plates/9-challenger-row-after.png)
+![before](2026-09-14-navbar-press-plates/10-challenger-header-before.png)
+![after](2026-09-14-navbar-press-plates/11-challenger-header-after.png)
