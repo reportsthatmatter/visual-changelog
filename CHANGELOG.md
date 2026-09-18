@@ -396,3 +396,17 @@ Follow-up to [reportsthatmatter#99](https://github.com/reportsthatmatter/reports
 ![after](2026-09-14-navbar-press-plates/9-challenger-row-after.png)
 ![before](2026-09-14-navbar-press-plates/10-challenger-header-before.png)
 ![after](2026-09-14-navbar-press-plates/11-challenger-header-after.png)
+
+---
+
+## 2026-09-18 — Challenger appendix OCR review
+
+Bead `reportsthatmatter-agk`; [report commit `847850a`](https://github.com/reportsthatmatter/challenger-accident/commit/847850a9a85b7772cd50e51903fa0f0f2a9e5ef9). The first prose batch from Challenger's OCR suspect queue was checked against the GPO scan. Eighteen suspect tokens leave the queue through 25 page-scoped corrections: damaged footnote numbers and definitions, an O-ring task-force title, and a table header now agree with the printed report.
+
+**Before** — on printed page 211, OCR rendered footnote 25 as `2s` both in Mulloy's quoted statement and in the citation line:
+
+![before](2026-09-18-challenger-ocr/1-before-page-211.png)
+
+**After** — both references read `25`; the same review-and-scan method covers the rest of this batch:
+
+![after](2026-09-18-challenger-ocr/2-after-page-211.png)
