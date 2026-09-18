@@ -410,3 +410,29 @@ Bead `reportsthatmatter-agk`; [report commit `847850a`](https://github.com/repor
 **After** — both references read `25`; the same review-and-scan method covers the rest of this batch:
 
 ![after](2026-09-18-challenger-ocr/2-after-page-211.png)
+
+---
+
+## 2026-09-18 — The Bloody Sunday Inquiry
+
+New report ([reportsthatmatter#143](https://github.com/reportsthatmatter/reportsthatmatter/pull/143), `@rtm/ingest` v0.12.16). Volume I of Lord Saville's report sets its notes beneath each paragraph, numbered from 1 again every time and in two columns. It quotes 1972 telegrams in capitals, and its facing pages sit at different margins. Read the usual way, 392 references pointed at one note and every right-hand page was cut into single-line paragraphs. Four report-declared passes read it as printed. No "before" images: the report was never published in its broken state.
+
+**Contents page** — the plate is a Humber APC photographed on Bloody Sunday, from the report's own Glossary:
+
+![contents](2026-09-18-saville/1-contents-page.png)
+
+**Paragraph notes** — 9.165's two notes sit beside it with their printed numbers, under David's telegram, which stays a quotation:
+
+![telegram and notes](2026-09-18-saville/2-telegram-and-paragraph-notes.png)
+
+**Chapter contents** — Chapter 8's title comes out whole ("…August to December 1971"), where the source wraps it, and its own contents list its subsections by paragraph:
+
+![chapter contents](2026-09-18-saville/3-chapter-contents.png)
+
+**Mobile:**
+
+![mobile](2026-09-18-saville/4-telegram-mobile.png)
+
+**Archive row:**
+
+![row](2026-09-18-saville/5-archive-row.png)
