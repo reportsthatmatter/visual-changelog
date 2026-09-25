@@ -463,6 +463,6 @@ A report's first page was only its table of contents. A reader arriving cold had
 
 ![Wall Street and the Financial Crisis, after](5-after-wall-street-header.png)
 
-Rufus's highlights are now in the marks table, so the passages show as marked in the text and in "Most marked passages":
+Rufus's highlights are now in the marks table, so the passages show as marked in the text. (A landing page itself carries no highlights section; see reportsthatmatter#155.)
 
 ![A seeded highlight in the text](6-after-highlight-in-text.png)
