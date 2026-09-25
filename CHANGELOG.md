@@ -436,3 +436,33 @@ New report ([reportsthatmatter#143](https://github.com/reportsthatmatter/reports
 **Archive row:**
 
 ![row](2026-09-18-saville/5-archive-row.png)
+
+---
+
+## 2026-09-25 — A report's landing page: background, findings, where to start
+
+### Landing pages for Jack Smith and Wall Street and the Financial Crisis ([reportsthatmatter#154](https://github.com/reportsthatmatter/reportsthatmatter/pull/154))
+
+A report's first page was only its table of contents. A reader arriving cold had no idea what the report was about, when it was written, or why it mattered. Readers who were sent links said as much. The two reports with an introduction of ours now open on a landing page: the year in the header, a standfirst, the background, what the report found (with a few key passages quoted), and where to start reading, all above the contents. Our words are set in the site's sans and the report's in its serif, so it is visible whose words are whose. Every quotation is checked word for word against the report at build time. Reports without an introduction keep the plain contents page.
+
+**Before** — the report opened on its contents:
+
+![Jack Smith report, before](1-before-jack-smith.png)
+
+**After** — header with year and standfirst, then background:
+
+![Jack Smith report, after: header](2-after-jack-smith-header.png)
+
+**What it found**, with key passages linked to the exact words:
+
+![What it found](3-after-what-it-found.png)
+
+**Where to start reading**, section by section:
+
+![Where to start reading](4-after-where-to-start.png)
+
+![Wall Street and the Financial Crisis, after](5-after-wall-street-header.png)
+
+Rufus's highlights are now in the marks table, so the passages show as marked in the text and in "Most marked passages":
+
+![A seeded highlight in the text](6-after-highlight-in-text.png)
