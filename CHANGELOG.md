@@ -496,3 +496,19 @@ A report's landing page opened on its plate, a small greyscale exhibit, which sa
 ![Jack Smith, after, phone](2026-09-27-hero-images/after-jack-smith-vol1-phone.png)
 
 Phone before-shots: `before-*-phone.png` in the same directory.
+
+---
+
+## 2026-09-27 — Landing pages for Challenger, Columbia, Deepwater Horizon and Philip Morris
+
+### Four more introductions ([reportsthatmatter-g0w.7.6–.9](https://github.com/reportsthatmatter/reportsthatmatter))
+
+The same landing-page treatment as Jack Smith and Wall Street — year, standfirst, background, what the report found, where to start reading, all above the contents — now covers Challenger, Columbia, Deepwater Horizon and United States v. Philip Morris. Every report in the archive now opens on an introduction instead of bare contents.
+
+![Challenger, after](2026-09-27-four-more-intros/after-challenger-accident-desktop.png)
+
+![Columbia, after](2026-09-27-four-more-intros/after-columbia-accident-desktop.png)
+
+![Deepwater Horizon, after](2026-09-27-four-more-intros/after-us-deepwater-horizon-desktop.png)
+
+![Philip Morris, after](2026-09-27-four-more-intros/after-us-v-philip-morris-desktop.png)
