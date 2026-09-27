@@ -466,3 +466,33 @@ A report's first page was only its table of contents. A reader arriving cold had
 Rufus's highlights are now in the marks table, so the passages show as marked in the text. (A landing page itself carries no highlights section; see reportsthatmatter#155.)
 
 ![A seeded highlight in the text](6-after-highlight-in-text.png)
+
+---
+
+## 2026-09-27 — A photograph of the event on two landing pages
+
+### Hero band on Jack Smith and Hillsborough ([reportsthatmatter#168](https://github.com/reportsthatmatter/reportsthatmatter/pull/168))
+
+A report's landing page opened on its plate, a small greyscale exhibit, which says little to a reader arriving cold. Rufus: a specific photograph of the event "makes a big difference". The pilot puts one in a full-bleed band above the title, colour toned down and grain baked in, with a credit line linking to its source; the plate steps aside on that page only. Jack Smith: the gallows before the Capitol, 6 January 2021 (Tyler Merbler, CC BY 2.0). Hillsborough: the Leppings Lane end, 15 April 1989 (John Giles/PA, fair use). Design and the options tried: `docs/design/2026-09-27-hero/` in the site repo.
+
+**Before**, Hillsborough, desktop:
+
+![Hillsborough, before](2026-09-27-hero-images/before-uk-hillsborough-panel-desktop.png)
+
+**After**, Hillsborough, desktop and phone:
+
+![Hillsborough, after](2026-09-27-hero-images/after-uk-hillsborough-panel-desktop.png)
+
+![Hillsborough, after, phone](2026-09-27-hero-images/after-uk-hillsborough-panel-phone.png)
+
+**Before**, Jack Smith, desktop:
+
+![Jack Smith, before](2026-09-27-hero-images/before-jack-smith-vol1-desktop.png)
+
+**After**, Jack Smith, desktop and phone:
+
+![Jack Smith, after](2026-09-27-hero-images/after-jack-smith-vol1-desktop.png)
+
+![Jack Smith, after, phone](2026-09-27-hero-images/after-jack-smith-vol1-phone.png)
+
+Phone before-shots: `before-*-phone.png` in the same directory.
