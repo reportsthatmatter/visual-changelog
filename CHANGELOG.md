@@ -512,3 +512,65 @@ The same landing-page treatment as Jack Smith and Wall Street — year, standfir
 ![Deepwater Horizon, after](2026-09-27-four-more-intros/after-us-deepwater-horizon-desktop.png)
 
 ![Philip Morris, after](2026-09-27-four-more-intros/after-us-v-philip-morris-desktop.png)
+
+---
+
+## 2026-09-27 — A photograph of the event on every landing page
+
+### Heroes for the other nine reports ([reportsthatmatter#173](https://github.com/reportsthatmatter/reportsthatmatter/pull/173))
+
+After the pilot on Jack Smith and Hillsborough, the same band goes on the other nine landing pages. Five research picks that showed a place or an object were replaced with photographs of the event (Bloody Sunday, Litvinenko, Leveson, Columbia, Philip Morris); 9/11, Challenger, Deepwater Horizon and Lehman on 15 September 2008 shipped as picked. Sourcing and reasoning for each: `docs/design/2026-09-27-hero/sources.yaml` in the site repo. After shots only: the before state is the plate, as in the pilot's entry.
+
+**9/11 Commission**, desktop and phone:
+
+![9/11 Commission, after](2026-09-27-hero-images-all/after-us-911-commission-desktop.png)
+
+![9/11 Commission, after, phone](2026-09-27-hero-images-all/after-us-911-commission-phone.png)
+
+**Challenger**, desktop and phone:
+
+![Challenger, after](2026-09-27-hero-images-all/after-challenger-accident-desktop.png)
+
+![Challenger, after, phone](2026-09-27-hero-images-all/after-challenger-accident-phone.png)
+
+**Columbia**, desktop and phone:
+
+![Columbia, after](2026-09-27-hero-images-all/after-columbia-accident-desktop.png)
+
+![Columbia, after, phone](2026-09-27-hero-images-all/after-columbia-accident-phone.png)
+
+**Deepwater Horizon**, desktop and phone:
+
+![Deepwater Horizon, after](2026-09-27-hero-images-all/after-us-deepwater-horizon-desktop.png)
+
+![Deepwater Horizon, after, phone](2026-09-27-hero-images-all/after-us-deepwater-horizon-phone.png)
+
+**Wall Street and the Financial Crisis**, desktop and phone:
+
+![Wall Street and the Financial Crisis, after](2026-09-27-hero-images-all/after-us-psi-financial-crisis-desktop.png)
+
+![Wall Street and the Financial Crisis, after, phone](2026-09-27-hero-images-all/after-us-psi-financial-crisis-phone.png)
+
+**United States v. Philip Morris**, desktop and phone:
+
+![United States v. Philip Morris, after](2026-09-27-hero-images-all/after-us-v-philip-morris-desktop.png)
+
+![United States v. Philip Morris, after, phone](2026-09-27-hero-images-all/after-us-v-philip-morris-phone.png)
+
+**Bloody Sunday (Saville)**, desktop and phone:
+
+![Bloody Sunday (Saville), after](2026-09-27-hero-images-all/after-uk-saville-inquiry-desktop.png)
+
+![Bloody Sunday (Saville), after, phone](2026-09-27-hero-images-all/after-uk-saville-inquiry-phone.png)
+
+**Litvinenko**, desktop and phone:
+
+![Litvinenko, after](2026-09-27-hero-images-all/after-litvinenko-inquiry-desktop.png)
+
+![Litvinenko, after, phone](2026-09-27-hero-images-all/after-litvinenko-inquiry-phone.png)
+
+**Leveson**, desktop and phone:
+
+![Leveson, after](2026-09-27-hero-images-all/after-uk-leveson-inquiry-desktop.png)
+
+![Leveson, after, phone](2026-09-27-hero-images-all/after-uk-leveson-inquiry-phone.png)
