@@ -574,3 +574,11 @@ After the pilot on Jack Smith and Hillsborough, the same band goes on the other 
 ![Leveson, after](2026-09-27-hero-images-all/after-uk-leveson-inquiry-desktop.png)
 
 ![Leveson, after, phone](2026-09-27-hero-images-all/after-uk-leveson-inquiry-phone.png)
+
+---
+
+## 2026-10-10 — The Mueller Report is on the site (v0.26.0)
+
+The Report on the Investigation into Russian Interference in the 2016 Presidential Election (Volumes I and II) went live with ingest v0.26.0: 102 sections, 1,315 citable paragraphs, redactions shown inline as "[Redacted: (b) (7)(A)]" with the codes the box prints (decision 0020). The landing page uses a redacted page of the report as its plate.
+
+![The Mueller Report's landing page](2026-10-10-mueller-report/after-us-mueller-report-desktop.png)
