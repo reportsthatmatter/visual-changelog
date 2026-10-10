@@ -582,3 +582,13 @@ After the pilot on Jack Smith and Hillsborough, the same band goes on the other 
 The Report on the Investigation into Russian Interference in the 2016 Presidential Election (Volumes I and II) went live with ingest v0.26.0: 102 sections, 1,315 citable paragraphs, redactions shown inline as "[Redacted: (b) (7)(A)]" with the codes the box prints (decision 0020). The landing page uses a redacted page of the report as its plate.
 
 ![The Mueller Report's landing page](2026-10-10-mueller-report/after-us-mueller-report-desktop.png)
+
+---
+
+## 2026-10-10 — The Senate Torture Report is on the site (v0.27.0)
+
+The Senate Select Committee on Intelligence's Study of the CIA's Detention and Interrogation Program (S. Rept. 113-288, the declassified Executive Summary, findings, foreword and views) went live with ingest v0.27.0. Redactions show inline as "[Redacted]" (decision 0020's uncoded addendum). The text is the scan's OCR, and its processing notes say where it falls short.
+
+![The Senate Torture Report's landing page](2026-10-10-senate-torture-report/after-us-senate-cia-torture-report-desktop.png)
+
+![A section of the foreword with redactions](2026-10-10-senate-torture-report/after-us-senate-cia-torture-report-redactions-desktop.png)
