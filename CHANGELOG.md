@@ -592,3 +592,25 @@ The Senate Select Committee on Intelligence's Study of the CIA's Detention and I
 ![The Senate Torture Report's landing page](2026-10-10-senate-torture-report/after-us-senate-cia-torture-report-desktop.png)
 
 ![A section of the foreword with redactions](2026-10-10-senate-torture-report/after-us-senate-cia-torture-report-redactions-desktop.png)
+
+---
+
+## 2026-10-25 — Covid Inquiry Module 2: introduction and hero; ICA 2017 hero
+
+The Covid Inquiry Module 2 report (Volume I) went live on 25 October with a plain contents page. It now has its introduction (standfirst, background, findings, reading guide), a hero of Liverpool Street Station almost empty on 21 May 2020 (Kwh1050, CC BY-SA 4.0), and three quote cards for the queue. The 2017 Intelligence Community Assessment gains a hero of the CIA's Original Headquarters Building (public domain). ([reportsthatmatter#381](https://github.com/reportsthatmatter/reportsthatmatter/pull/381), [#379](https://github.com/reportsthatmatter/reportsthatmatter/pull/379))
+
+**Covid Module 2 landing page, desktop:**
+
+![covid desktop](2026-10-25-covid-intro-heroes/1-covid-landing-desktop.png)
+
+**Phone:**
+
+![covid phone](2026-10-25-covid-intro-heroes/2-covid-landing-phone.png)
+
+**ICA 2017 landing page:**
+
+![ica desktop](2026-10-25-covid-intro-heroes/3-ica-landing-desktop.png)
+
+**A Covid quote card (queued for 28 Nov):**
+
+![covid card](2026-10-25-covid-intro-heroes/4-covid-card-cobr.png)
