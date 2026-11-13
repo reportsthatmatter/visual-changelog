@@ -614,3 +614,23 @@ The Covid Inquiry Module 2 report (Volume I) went live on 25 October with a plai
 **A Covid quote card (queued for 28 Nov):**
 
 ![covid card](2026-10-25-covid-intro-heroes/4-covid-card-cobr.png)
+
+## 2026-11-13 — Thirlwall Volumes I–III, Covid Module 2 Volume II, Grenfell Phase 2 Volumes 2–7, and the Duelfer Report
+
+Three live reports gained their remaining volumes and one new report went live, all on @rtm/ingest v0.38.0, in one release ([reportsthatmatter#460](https://github.com/reportsthatmatter/reportsthatmatter/pull/460), [ingest#97](https://github.com/reportsthatmatter/ingest/pull/97)). Existing links did not move. Introductions were revised to cover the new volumes; no new quote cards for the three inquiry reports (decision 0026). Duelfer is served from the CIA's HTML edition with the 2005 printing's page anchors and corrected words.
+
+**Thirlwall Inquiry, now the summary and Volumes I–III:**
+
+![thirlwall](2026-11-13-four-report-volumes/1-uk-thirlwall-inquiry-landing.png)
+
+**Covid Inquiry Module 2, now Volumes I and II (recommendations):**
+
+![covid](2026-11-13-four-report-volumes/2-uk-covid-inquiry-module-2-landing.png)
+
+**Grenfell Tower Inquiry Phase 2, now all seven volumes:**
+
+![grenfell](2026-11-13-four-report-volumes/3-uk-grenfell-tower-inquiry-landing.png)
+
+**Duelfer Report, Volume I (new):**
+
+![duelfer](2026-11-13-four-report-volumes/4-us-duelfer-report-landing.png)
