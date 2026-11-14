@@ -646,3 +646,11 @@ The Duelfer Report (Volume I) went live on 13 November with its text only. It no
 **A quote card (queued for 14 Jan 2027):**
 
 ![duelfer card](2026-11-14-duelfer-intro/us-duelfer-report-card.png)
+
+---
+
+## 2026-11-14 — Duelfer plate: emblem replaced by report text
+
+The Duelfer Report's plate was an Iraqi Intelligence Service emblem, against the house rule of no seals, crests or logos. It is now a crop of the Director's own paragraph on PDF p.5. The share card with the new plate:
+
+![Duelfer share card](2026-11-14-duelfer-plate/us-duelfer-report-share-card.png)
