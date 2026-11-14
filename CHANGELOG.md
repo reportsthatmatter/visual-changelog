@@ -634,3 +634,15 @@ Three live reports gained their remaining volumes and one new report went live, 
 **Duelfer Report, Volume I (new):**
 
 ![duelfer](2026-11-13-four-report-volumes/4-us-duelfer-report-landing.png)
+
+## 2026-11-14 — Duelfer Report: introduction, hero image and quote cards
+
+The Duelfer Report (Volume I) went live on 13 November with its text only. It now has an introduction (standfirst, background, eight findings, a six-section reading guide), a public-domain hero photograph (a suspected chemical weapons site at Ar Rustamiyah, 8 April 2003, USMC), and four quote cards queued as hooked Bluesky posts ([reportsthatmatter#462](https://github.com/reportsthatmatter/reportsthatmatter/pull/462)).
+
+**Landing page:**
+
+![duelfer landing](2026-11-14-duelfer-intro/us-duelfer-report-landing.png)
+
+**A quote card (queued for 14 Jan 2027):**
+
+![duelfer card](2026-11-14-duelfer-intro/us-duelfer-report-card.png)
