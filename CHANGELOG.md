@@ -654,3 +654,11 @@ The Duelfer Report (Volume I) went live on 13 November with its text only. It no
 The Duelfer Report's plate was an Iraqi Intelligence Service emblem, against the house rule of no seals, crests or logos. It is now a crop of the Director's own paragraph on PDF p.5. The share card with the new plate:
 
 ![Duelfer share card](2026-11-14-duelfer-plate/us-duelfer-report-share-card.png)
+
+---
+
+## 2026-11-20 — The /data page: every paragraph as a dataset
+
+New [/data](https://reportsthatmatter.org/data) page offering one row per paragraph across all 24 live reports (64,618 rows) as gzipped CSV and JSONL, plus `licences.json` ([reportsthatmatter#465](https://github.com/reportsthatmatter/reportsthatmatter/pull/465), [#466](https://github.com/reportsthatmatter/reportsthatmatter/pull/466)). The page shows the download links; each report's licence statement is below the fold.
+
+![The /data page](2026-11-20-data-page/data-page.png)
