@@ -670,3 +670,11 @@ New [/data](https://reportsthatmatter.org/data) page offering one row per paragr
 Each report's landing page now links its full text as a Markdown file in the report's own GitHub repo, below the link to the original document. The Leveson Inquiry's landing page:
 
 ![Leveson landing page with the Markdown link](2026-11-21-markdown-link/leveson-landing.png)
+
+---
+
+## 2026-11-21 — First essay published: "The evidence, not the verdict"
+
+The first long essay is on the blog, linked from the About page: why inquiry reports are worth reading, and what is on the site now. Also fixed the Grenfell Tower Inquiry's registry line, which still said "Volume 1 of 7" although all seven volumes (all fourteen Parts) are ingested.
+
+![The essay at /blog/why-reports-that-matter](2026-11-21-essay-published/essay-post.png)
