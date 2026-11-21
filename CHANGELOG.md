@@ -662,3 +662,11 @@ The Duelfer Report's plate was an Iraqi Intelligence Service emblem, against the
 New [/data](https://reportsthatmatter.org/data) page offering one row per paragraph across all 24 live reports (64,618 rows) as gzipped CSV and JSONL, plus `licences.json` ([reportsthatmatter#465](https://github.com/reportsthatmatter/reportsthatmatter/pull/465), [#466](https://github.com/reportsthatmatter/reportsthatmatter/pull/466)). The page shows the download links; each report's licence statement is below the fold.
 
 ![The /data page](2026-11-20-data-page/data-page.png)
+
+---
+
+## 2026-11-21 — Full text as Markdown on GitHub
+
+Each report's landing page now links its full text as a Markdown file in the report's own GitHub repo, below the link to the original document. The Leveson Inquiry's landing page:
+
+![Leveson landing page with the Markdown link](2026-11-21-markdown-link/leveson-landing.png)
